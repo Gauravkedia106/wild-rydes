@@ -1,6 +1,6 @@
-// vue.config.js
 module.exports = {
-  lintOnSave: false,
-  outputDir: 'dist',
-  publicPath: '/',
-};
+    api: {
+        invokeUrl: 'https://zf47zgeo3a.execute-api.ap-south-1.amazonaws.com/prod'
+    }
+}
+
